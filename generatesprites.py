@@ -5,7 +5,8 @@ import errno
 
 character_regexp = re.compile(r'layer\-[0-9]+([\w\-]+).png')
 
-character_offset = 0
+buffer_width = 1
+character_offset = buffer_width
 max_height = 0
 images = []
 
@@ -37,14 +38,14 @@ with open(os.path.join("output", "test.html"), "w") as test_html_file:
                 offsety = 0 - top
 
                 css = """.flair-{} {{
-            background-image: url("sprite.png");
-            background-position: {}px {}px;
-            width: {}px;
-            height: {}px;
-        }}
-        """.format(character, offsetx, offsety, width, height)
+    background-image: url("sprite.png");
+    background-position: {}px {}px;
+    width: {}px;
+    height: {}px;
+}}
+""".format(character, offsetx, offsety, width, height)
 
-                character_offset += im.width
+                character_offset += im.width + buffer_width
                 max_height = max(max_height, im.height)
 
                 # print css
@@ -53,10 +54,10 @@ with open(os.path.join("output", "test.html"), "w") as test_html_file:
                 test_html_file.write('<div class="flair flair-{}"></div>'.format(character))
 
         output_image = Image.new("RGBA", (character_offset, max_height))
-        offset = 0
+        offset = buffer_width
         for im in images:
             output_image.paste(im, (offset, 0))
-            offset += im.width
+            offset += im.width + buffer_width
         output_image.save(os.path.join("output", "sprite.png"))
 
     test_html_file.write("</body>")
