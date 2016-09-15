@@ -1,0 +1,187 @@
+.flair-Sorin {
+            background-image: url("sprite.png");
+            background-position: -3px -8px;
+            width: 23px;
+            height: 20px;
+        }
+        .flair-Tamiyo {
+            background-image: url("sprite.png");
+            background-position: -38px -3px;
+            width: 22px;
+            height: 25px;
+        }
+        .flair-Griselbrand {
+            background-image: url("sprite.png");
+            background-position: -64px -4px;
+            width: 32px;
+            height: 26px;
+        }
+        .flair-Liliana {
+            background-image: url("sprite.png");
+            background-position: -104px -6px;
+            width: 16px;
+            height: 20px;
+        }
+        .flair-Saheeli {
+            background-image: url("sprite.png");
+            background-position: -132px -4px;
+            width: 18px;
+            height: 23px;
+        }
+        .flair-Avacyn {
+            background-image: url("sprite.png");
+            background-position: -160px -4px;
+            width: 32px;
+            height: 24px;
+        }
+        .flair-Chandra {
+            background-image: url("sprite.png");
+            background-position: -200px -1px;
+            width: 16px;
+            height: 25px;
+        }
+        .flair-Jace {
+            background-image: url("sprite.png");
+            background-position: -234px -6px;
+            width: 12px;
+            height: 20px;
+        }
+        .flair-Elesh-Norn {
+            background-image: url("sprite.png");
+            background-position: -259px -8px;
+            width: 26px;
+            height: 21px;
+        }
+        .flair-Tezzeret {
+            background-image: url("sprite.png");
+            background-position: -293px -5px;
+            width: 18px;
+            height: 21px;
+        }
+        .flair-Nicol-Bolas {
+            background-image: url("sprite.png");
+            background-position: -320px 0px;
+            width: 32px;
+            height: 30px;
+        }
+        .flair-Nissa {
+            background-image: url("sprite.png");
+            background-position: -359px -6px;
+            width: 20px;
+            height: 20px;
+        }
+        .flair-Ugin {
+            background-image: url("sprite.png");
+            background-position: -384px 0px;
+            width: 32px;
+            height: 29px;
+        }
+        .flair-Ajani {
+            background-image: url("sprite.png");
+            background-position: -423px -8px;
+            width: 25px;
+            height: 20px;
+        }
+        .flair-Gideon {
+            background-image: url("sprite.png");
+            background-position: -452px -6px;
+            width: 20px;
+            height: 21px;
+        }
+        .flair-Mazirek {
+            background-image: url("sprite.png");
+            background-position: -480px -4px;
+            width: 32px;
+            height: 25px;
+        }
+        .flair-Karlov {
+            background-image: url("sprite.png");
+            background-position: -515px -2px;
+            width: 26px;
+            height: 28px;
+        }
+        .flair-Kalemne {
+            background-image: url("sprite.png");
+            background-position: -549px 0px;
+            width: 22px;
+            height: 31px;
+        }
+        .flair-Kaseto {
+            background-image: url("sprite.png");
+            background-position: -583px 0px;
+            width: 18px;
+            height: 26px;
+        }
+        .flair-Lithomancer {
+            background-image: url("sprite.png");
+            background-position: -617px -6px;
+            width: 22px;
+            height: 22px;
+        }
+        .flair-Anya {
+            background-image: url("sprite.png");
+            background-position: -640px -6px;
+            width: 32px;
+            height: 20px;
+        }
+        .flair-Freyalise {
+            background-image: url("sprite.png");
+            background-position: -679px -6px;
+            width: 18px;
+            height: 22px;
+        }
+        .flair-Meren {
+            background-image: url("sprite.png");
+            background-position: -712px -4px;
+            width: 16px;
+            height: 22px;
+        }
+        .flair-Ezuri {
+            background-image: url("sprite.png");
+            background-position: -742px -6px;
+            width: 19px;
+            height: 20px;
+        }
+        .flair-Animated-Wall {
+            background-image: url("sprite.png");
+            background-position: -769px -5px;
+            width: 30px;
+            height: 23px;
+        }
+        .flair-Arjun {
+            background-image: url("sprite.png");
+            background-position: -801px 0px;
+            width: 30px;
+            height: 26px;
+        }
+        .flair-Mizzix {
+            background-image: url("sprite.png");
+            background-position: -836px -1px;
+            width: 24px;
+            height: 26px;
+        }
+        .flair-Urza {
+            background-image: url("sprite.png");
+            background-position: -867px -6px;
+            width: 20px;
+            height: 20px;
+        }
+        .flair-Sliver {
+            background-image: url("sprite.png");
+            background-position: -904px -12px;
+            width: 17px;
+            height: 16px;
+        }
+        .flair-Sliver-Queen {
+            background-image: url("sprite.png");
+            background-position: -930px -1px;
+            width: 28px;
+            height: 29px;
+        }
+        .flair-Zedruu {
+            background-image: url("sprite.png");
+            background-position: -967px -2px;
+            width: 24px;
+            height: 26px;
+        }
+        

@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 import re
+import errno
 
 character_regexp = re.compile(r'layer\-[0-9]+([\w\-]+).png')
 
@@ -8,13 +9,22 @@ character_offset = 0
 max_height = 0
 images = []
 
-os.mkdir("output")
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc:  # Python >2.5
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
+
+mkdir_p("output")
 with open(os.path.join("output", "test.html"), "w") as test_html_file:
     test_html_file.write('<html><head><link href="flair.css" rel="stylesheet"><style>.flair{display:inline-block;}</style></head><body>')
     with open(os.path.join("output", "flair.css"), "w") as outputfile:
-        for i, filename in enumerate(os.listdir(os.path.join(os.getcwd(),"inputs"))):
+        for i, filename in enumerate(os.listdir(os.path.join(os.getcwd(), "inputs"))):
             if filename.startswith("layer"):
-                im = Image.open(filename)
+                im = Image.open(os.path.join("inputs", filename))
                 images.append(im)
                 r, g, b, a = im.split()
                 character = character_regexp.match(filename).groups()[0]
@@ -37,7 +47,7 @@ with open(os.path.join("output", "test.html"), "w") as test_html_file:
                 character_offset += im.width
                 max_height = max(max_height, im.height)
 
-                print css
+                # print css
                 outputfile.write(css)
 
                 test_html_file.write('<div class="flair flair-{}"></div>'.format(character))
