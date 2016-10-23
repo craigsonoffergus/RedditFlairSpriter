@@ -58,77 +58,77 @@
     width: 18px;
     height: 21px;
 }
+.flair-Garruk {
+    background-image: url("sprite.png");
+    background-position: -338px -7px;
+    width: 24px;
+    height: 22px;
+}
 .flair-Nicol-Bolas {
     background-image: url("sprite.png");
-    background-position: -331px 0px;
+    background-position: -364px 0px;
     width: 32px;
     height: 30px;
 }
 .flair-Nissa {
     background-image: url("sprite.png");
-    background-position: -371px -6px;
+    background-position: -404px -6px;
     width: 20px;
     height: 20px;
 }
 .flair-Ugin {
     background-image: url("sprite.png");
-    background-position: -397px 0px;
+    background-position: -430px 0px;
     width: 32px;
     height: 29px;
 }
 .flair-Ajani {
     background-image: url("sprite.png");
-    background-position: -437px -8px;
+    background-position: -470px -8px;
     width: 25px;
     height: 20px;
 }
 .flair-Gideon {
     background-image: url("sprite.png");
-    background-position: -467px -6px;
+    background-position: -500px -6px;
     width: 20px;
     height: 21px;
 }
 .flair-Mazirek {
     background-image: url("sprite.png");
-    background-position: -496px -4px;
+    background-position: -529px -4px;
     width: 32px;
     height: 25px;
 }
 .flair-Karlov {
     background-image: url("sprite.png");
-    background-position: -532px -2px;
+    background-position: -565px -2px;
     width: 26px;
     height: 28px;
 }
 .flair-Kalemne {
     background-image: url("sprite.png");
-    background-position: -567px 0px;
+    background-position: -600px 0px;
     width: 22px;
     height: 31px;
 }
 .flair-Kaseto {
     background-image: url("sprite.png");
-    background-position: -602px 0px;
+    background-position: -635px 0px;
     width: 18px;
     height: 26px;
 }
 .flair-Lithomancer {
     background-image: url("sprite.png");
-    background-position: -637px -6px;
+    background-position: -670px -6px;
     width: 22px;
     height: 22px;
 }
 .flair-Anya {
     background-image: url("sprite.png");
-    background-position: -661px -6px;
+    background-position: -694px -6px;
     width: 32px;
     height: 20px;
-}
-.flair-Freyalise {
-    background-image: url("sprite.png");
-    background-position: -701px -6px;
-    width: 18px;
-    height: 22px;
 }
 .flair-Meren {
     background-image: url("sprite.png");
@@ -160,27 +160,45 @@
     width: 24px;
     height: 26px;
 }
+.flair-Daxos {
+    background-image: url("sprite.png");
+    background-position: -900px -6px;
+    width: 16px;
+    height: 20px;
+}
 .flair-Urza {
     background-image: url("sprite.png");
-    background-position: -895px -6px;
+    background-position: -928px -6px;
     width: 20px;
+    height: 20px;
+}
+.flair-Sisay {
+    background-image: url("sprite.png");
+    background-position: -965px -8px;
+    width: 21px;
+    height: 20px;
+}
+.flair-Elspeth {
+    background-image: url("sprite.png");
+    background-position: -995px -8px;
+    width: 25px;
     height: 20px;
 }
 .flair-Sliver {
     background-image: url("sprite.png");
-    background-position: -933px -12px;
+    background-position: -1032px -12px;
     width: 17px;
     height: 16px;
 }
 .flair-Sliver-Queen {
     background-image: url("sprite.png");
-    background-position: -960px -1px;
+    background-position: -1059px -1px;
     width: 28px;
     height: 29px;
 }
 .flair-Zedruu {
     background-image: url("sprite.png");
-    background-position: -998px -2px;
+    background-position: -1097px -2px;
     width: 24px;
     height: 26px;
 }
